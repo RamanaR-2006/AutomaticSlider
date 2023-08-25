@@ -20,10 +20,11 @@
             android:id="@+id/tabLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="center"
             app:tabGravity="center"
             app:tabMode="fixed"
-            app:tabIndicator="@drawable/tab_indicator_background"
-        app:tabIconTint="@color/black"/>
+            app:tabIndicatorHeight="0dp"
+            app:tabBackground="@drawable/indicator_selector"
+            />
     </FrameLayout>
 </LinearLayout>
