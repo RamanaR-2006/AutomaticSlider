@@ -1,5 +1,6 @@
 package com.example.automaticslider
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager2.widget.ViewPager2
@@ -29,5 +30,7 @@ class MainActivity : AppCompatActivity() {
         TabLayoutMediator(tabLayout, viewPager) { tab, _ ->
             // You can customize the tab view here if needed
         }.attach()
+
+
     }
 }
