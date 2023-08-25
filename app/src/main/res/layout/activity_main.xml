@@ -20,8 +20,11 @@
             android:id="@+id/tabLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        app:tabGravity="center"
-        app:tabMode="fixed"/>
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            app:tabGravity="center"
+            app:tabMode="fixed"
+
+            />
     </FrameLayout>
 </LinearLayout>

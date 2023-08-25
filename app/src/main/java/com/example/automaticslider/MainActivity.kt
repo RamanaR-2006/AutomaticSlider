@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
         val adapter = SliderAdapter(this, fragments)
         viewPager.adapter = adapter
 
-        TabLayoutMediator(tabLayout, viewPager) { _, _ -> }.attach()
+        TabLayoutMediator(tabLayout, viewPager) { tab, _ ->
+            // You can customize the tab view here if needed
+        }.attach()
     }
 }
